@@ -72,4 +72,4 @@ class TestOrder:
         # клик по кнопке "Да"
         order_page.click_confirm_button()
         # проверка отображения формы с заголовком "Заказ оформлен"
-        order_page.check_order_complete()
+        assert order_page.check_order_complete()
